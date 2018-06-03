@@ -1,0 +1,101 @@
+
+Using Odds Ratio for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: pregnent Weight: 4.431338 
+Column Name: plas Weight: 4.082661 
+Column Name: pres Weight: 2.626848 
+Column Name: skin Weight: 3.893721 
+Column Name: test Weight: 2.122225 
+Column Name: mass Weight: 3.754125 
+Column Name: pedi Weight: 2.361272 
+Column Name: age Weight: 3.854177 
+Selected Features are: pregnent
+plas
+skin
+age
+
+
+PERCEPTRON ALGORITHM
+Number of mislabeled points out of a total 231 points : 14
+accuracy: 0.94
+====================================================================================
+
+Using Recursive Elimination for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: pregnent Weight: 1.000000 
+Column Name: plas Weight: 1.000000 
+Column Name: test Weight: 4.000000 
+Column Name: mass Weight: 5.000000 
+Column Name: skin Weight: 1.000000 
+Column Name: age Weight: 2.000000 
+Column Name: pedi Weight: 3.000000 
+Column Name: pres Weight: 1.000000 
+Selected Features: [ True  True False False  True False False  True]
+Selected Features are: pregnent
+plas
+skin
+pres
+
+
+PERCEPTRON ALGORITHM
+Number of mislabeled points out of a total 308 points : 15
+accuracy: 0.95
+====================================================================================
+
+Using Information Gain for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: pregnent Weight: 0.204359 
+Column Name: plas Weight: 0.150925 
+Column Name: skin Weight: 0.088027 
+Column Name: pres Weight: 0.092542 
+Column Name: test Weight: 0.121307 
+Column Name: age Weight: 0.120383 
+Column Name: pedi Weight: 0.209391 
+Column Name: mass Weight: 0.013066 
+Selected Features are: pedi
+pregnent
+plas
+test
+
+
+PERCEPTRON ALGORITHM
+Number of mislabeled points out of a total 308 points : 16
+accuracy: 0.95
+====================================================================================
+
+Using Linear Classifier Weights: 
+
+PERCEPTRON ALGORITHM
+Number of mislabeled points out of a total 308 points : 15
+accuracy: 0.95
+====================================================================================
+
+Using Univariate Seletion for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: pregnent Weight: 1387.106202 
+Column Name: pres Weight: 1289.040711 
+Column Name: plas Weight: 984.413887 
+Column Name: skin Weight: 496.108322 
+Column Name: age Weight: 1688.817512 
+Column Name: pedi Weight: 691.078215 
+Column Name: test Weight: 1151.664431 
+Column Name: mass Weight: 231.321784 
+Selected Features are: age
+pregnent
+pres
+test
+
+
+PERCEPTRON ALGORITHM
+Number of mislabeled points out of a total 308 points : 17
+accuracy: 0.94
+====================================================================================
+

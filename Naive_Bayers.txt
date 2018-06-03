@@ -1,0 +1,100 @@
+
+Using Odds Ratio for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: pregnent Weight: 4.431338 
+Column Name: plas Weight: 4.082661 
+Column Name: skin Weight: 2.626848 
+Column Name: age Weight: 3.893721 
+Column Name: mass Weight: 2.122225 
+Column Name: pres Weight: 3.754125 
+Column Name: pedi Weight: 2.361272 
+Column Name: test Weight: 3.854177 
+Selected Features are: pregnent
+plas
+age
+test
+
+
+NAIVE BAYERS ALGORITHM
+Number of mislabeled points out of a total 308 points : 14
+Accuracy of Naive Bayers: 0.95
+====================================================================================
+
+Using Recursive Elimination for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: pregnent Weight: 1.000000 
+Column Name: plas Weight: 1.000000 
+Column Name: skin Weight: 4.000000 
+Column Name: pres Weight: 5.000000 
+Column Name: test Weight: 1.000000 
+Column Name: age Weight: 2.000000 
+Column Name: pedi Weight: 3.000000 
+Column Name: mass Weight: 1.000000 
+Selected Features: [ True  True False False  True False False  True]
+Selected Features are: pregnent
+plas
+test
+mass
+
+
+NAIVE BAYERS ALGORITHM
+Number of mislabeled points out of a total 308 points : 13
+Accuracy of Naive Bayers: 0.96
+====================================================================================
+
+Using Information Gain for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: pedi Weight: 0.175531 
+Column Name: pregnent Weight: 0.084755 
+Column Name: plas Weight: 0.212212 
+Column Name: test Weight: 0.057381 
+Column Name: age Weight: 0.194877 
+Column Name: pres Weight: 0.052380 
+Column Name: skin Weight: 0.206989 
+Column Name: mass Weight: 0.015875 
+Selected Features are: plas
+skin
+age
+pedi
+
+
+NAIVE BAYERS ALGORITHM
+Number of mislabeled points out of a total 308 points : 19
+Accuracy of Naive Bayers: 0.94
+====================================================================================
+
+Using Linear Classifier Weights: 
+
+NAIVE BAYERS ALGORITHM
+Number of mislabeled points out of a total 308 points : 15
+Accuracy of Naive Bayers: 0.95
+====================================================================================
+
+Using Univariate Seletion for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: age Weight: 1387.106202 
+Column Name: pregnent Weight: 1289.040711 
+Column Name: pres Weight: 984.413887 
+Column Name: test Weight: 496.108322 
+Column Name: plas Weight: 1688.817512 
+Column Name: pedi Weight: 691.078215 
+Column Name: skin Weight: 1151.664431 
+Column Name: mass Weight: 231.321784 
+Selected Features are: plas
+age
+pregnent
+skin
+
+
+NAIVE BAYERS ALGORITHM
+Number of mislabeled points out of a total 308 points : 17
+Accuracy of Naive Bayers: 0.94
+====================================================================================

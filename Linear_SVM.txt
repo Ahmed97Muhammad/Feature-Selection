@@ -1,0 +1,96 @@
+
+Using Odds Ratio for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: pregnent Weight: 4.431338 
+Column Name: plas Weight: 4.082661 
+Column Name: age Weight: 2.626848 
+Column Name: test Weight: 3.893721 
+Column Name: pres Weight: 2.122225 
+Column Name: skin Weight: 3.754125 
+Column Name: pedi Weight: 2.361272 
+Column Name: mass Weight: 3.854177 
+Selected Features are: pregnent
+plas
+test
+mass
+
+LINEAR SVM ALGORITHM
+Number of mislabeled points out of a total 308 points : 15
+Accuracy of Linear SVM: 0.95
+====================================================================================
+
+Using Recursive Elimination for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: pregnent Weight: 1.000000 
+Column Name: plas Weight: 1.000000 
+Column Name: test Weight: 4.000000 
+Column Name: mass Weight: 5.000000 
+Column Name: skin Weight: 1.000000 
+Column Name: age Weight: 2.000000 
+Column Name: pedi Weight: 3.000000 
+Column Name: pres Weight: 1.000000 
+Selected Features: [ True  True False False  True False False  True]
+Selected Features are: pregnent
+plas
+skin
+pres
+
+LINEAR SVM ALGORITHM
+Number of mislabeled points out of a total 308 points : 14
+Accuracy of Linear SVM: 0.95
+====================================================================================
+
+Using Information Gain for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: plas Weight: 0.110995 
+Column Name: skin Weight: 0.106499 
+Column Name: age Weight: 0.078496 
+Column Name: pedi Weight: 0.072631 
+Column Name: pregnent Weight: 0.384614 
+Column Name: test Weight: 0.061244 
+Column Name: pres Weight: 0.171173 
+Column Name: mass Weight: 0.014349 
+Selected Features are: pregnent
+pres
+plas
+skin
+
+LINEAR SVM ALGORITHM
+Number of mislabeled points out of a total 308 points : 16
+Accuracy of Linear SVM: 0.95
+====================================================================================
+
+Using Linear Classifier Weights: 
+LINEAR SVM ALGORITHM
+Number of mislabeled points out of a total 308 points : 15
+Accuracy of Linear SVM: 0.95
+====================================================================================
+
+Using Univariate Seletion for feature selection...
+Choosing 4 attributes out of 7
+
+Calculated scores for given features
+Column Name: plas Weight: 1387.106202 
+Column Name: age Weight: 1289.040711 
+Column Name: pregnent Weight: 984.413887 
+Column Name: skin Weight: 496.108322 
+Column Name: pres Weight: 1688.817512 
+Column Name: pedi Weight: 691.078215 
+Column Name: test Weight: 1151.664431 
+Column Name: mass Weight: 231.321784 
+Selected Features are: pres
+plas
+age
+test
+
+LINEAR SVM ALGORITHM
+Number of mislabeled points out of a total 308 points : 15
+Accuracy of Linear SVM: 0.95
+====================================================================================
+=
